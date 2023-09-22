@@ -1,0 +1,15 @@
+ASSIGNMENT 4
+Retrieving information from tables.
+
+Q1->  Write A select command that produces the order number,amount, and date for all rows in orders tables.
+Ans-> select onum,amt,odate from ORDERS;
+
+Q2->  write a qyery that produces all rows from the customers table for which the salesperson's number is 1001.
+Ans-> select *from CUSTOMERS
+      where snum=1001;
+      
+Q3->Ans->select city,sname,snum,comm from SALESPEOPLE;
+
+Q4->Ans->select rating,cname from CUSTOMERSwhere city='San Jose'; 
+      
+      

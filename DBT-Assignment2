@@ -1,0 +1,21 @@
+ASSIGNMENT 2
+Introducing relational Databases.
+
+Q1->  Which field of the customers table is the primary key?
+Ans-> Snum is primary key.
+
+Q2->  What is the fourth Column of the customers Table?
+Ans-> Rating.
+
+Q3->  What is the another word for row? for column?
+Ans-> For Row= Tuple, entity.
+      For column=Attributes.
+
+Q3->  Why isn't it possible to see the first five rows of table?
+Ans-> when you insert into a table ,rows of table are not stored sequentially.
+      Whenever MySQL finds free space it will store there.
+      The Reason Why MySQl does this, to speed up the insert statement.
+      When you Select from a table, the order of rows in output depends on row address.
+      hence it is not possible to see first N number of rows.
+      
+      
